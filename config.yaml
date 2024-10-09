@@ -24,6 +24,15 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
+  - id: mastodon-versun
+    name: Mastodon
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://versun.me/versun'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true # allows the title to be a link, default=true
+
   - id: 54321-weekly
     name: 54321.versun.me
     #description: 'Built for anything connected to the Internet.'
