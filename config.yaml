@@ -1,6 +1,6 @@
 settings:
-  title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  title: 'Versun's Home Lab Server Status Page'
+  url: 'https://status.versun.me' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: versun-me
-    name: versun.me
+    name: Blog
     #description: 'You write code. They handle the rest.' # default=empty
     url: 'https://versun.me/' # URL to fetch
     method: GET # default=GET
@@ -34,9 +34,18 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: 54321-weekly
-    name: 54321.versun.me
+    name: 54321 Weekly
     #description: 'Built for anything connected to the Internet.'
     url: 'https://54321.versun.me/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true # allows the title to be a link, default=true
+
+  - id: newsletter
+    name: Newsletter Server
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://nslt.versun.me/'
     method: GET
     expectStatus: 200
     followRedirect: true
