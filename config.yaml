@@ -1,5 +1,5 @@
 settings:
-  title: "Versun's Home Lab Server Status Page"
+  title: "Versun's Services Status Page"
   url: 'https://status.versun.me' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
