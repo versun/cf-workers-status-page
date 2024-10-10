@@ -50,3 +50,30 @@ monitors:
     expectStatus: 200
     followRedirect: true
     linkable: false # allows the title to be a link, default=true
+
+  - id: gitea
+    name: Gitea
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://git.versun.me/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true # allows the title to be a link, default=true
+
+  - id: rsshub
+    name: RSSHub
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://rsshub.versun.me/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: true # allows the title to be a link, default=true
+
+  - id: wallos
+    name: Gitea
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://home.versun.me/wallos/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: false # allows the title to be a link, default=true
