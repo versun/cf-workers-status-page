@@ -6,7 +6,7 @@ settings:
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
+  notAllmonitorsOperational: 'Ops! Not All Systems Operational'
   monitorLabelOperational: 'Operational'
   monitorLabelNotOperational: 'Not Operational'
   monitorLabelNoData: 'No data'
@@ -27,7 +27,7 @@ monitors:
   - id: mastodon-versun
     name: Mastodon
     #description: 'Built for anything connected to the Internet.'
-    url: 'https://versun.me/versun'
+    url: 'https://versun.me/@versun'
     method: GET
     expectStatus: 200
     followRedirect: true
