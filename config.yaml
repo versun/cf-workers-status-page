@@ -77,3 +77,12 @@ monitors:
     expectStatus: 200
     followRedirect: true
     linkable: false # allows the title to be a link, default=true
+    
+  - id: rsstranslator
+    name: RSS Translator
+    #description: 'Built for anything connected to the Internet.'
+    url: 'https://rsstranslator.versun.me/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: false # allows the title to be a link, default=true
