@@ -70,7 +70,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: wallos
-    name: Gitea
+    name: Wallos
     #description: 'Built for anything connected to the Internet.'
     url: 'https://home.versun.me/wallos/'
     method: GET
